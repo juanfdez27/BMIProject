@@ -22,12 +22,11 @@ public class Main {
         in = keyboard.nextInt();
         System.out.println("How much do you weigh in pounds?");
         lbs = keyboard.nextInt();
-        kg =  lbs*.4535;
-        ft = in/12;
-        m = ft*.3048;
-        BMI = kg/(m*m);
-        System.out.println("Your BMI would be... "+BMI+".");
-
+        kg = lbs * .4535;
+        ft = in / 12;
+        m = ft * .3048;
+        BMI = kg / (m * m);
+        System.out.println("Your BMI would be... " + BMI + ".");
 
 
         //BMI = kg/(m*m);
@@ -36,11 +35,6 @@ public class Main {
         m = ft*(1m/3.281ft);
         ft = m*(3.281ft/1m);
         in = ft*(12in/1ft);*/
-
-
-
-
-
 
 
     }
